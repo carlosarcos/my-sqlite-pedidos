@@ -1,0 +1,17 @@
+{
+  "name": "my-sqlite-pedidos",
+  "module": "server.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun run src/app/server.ts",
+    "start": "bun run src/app/server.ts",
+    "typecheck": "bunx tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
